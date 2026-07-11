@@ -1,14 +1,16 @@
 *{
   font-family: "Inter", sans-serif;
-  
+  margin: 0;
+  padding: 0;
 }
 ul li a {
     text-decoration: none;
     color: #575757;
+
 }
 .logo{
- 
-  width: 80px;
+ padding-left: 80px;
+ width: 80px;
  height: auto;
 }
 .list-section ul li{
@@ -20,6 +22,7 @@ ul li a {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: center;
  
   
  }
@@ -37,5 +40,86 @@ ul li a {
   padding: 8px 12px;
   border: 20px;
   border-radius: 8px;
+  cursor: pointer;
+  
+}
+.banner {
+  height: 800px;
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  
+  
+  
+  
+}
+.banner-text h1{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+.banner-text p{
+  font-size: 22px;
+  padding: 10px;
+  margin: 50px;
+  
+}
+.banner .common-btn{
+  font-size: 26px;
+  padding: 20px 25px;
+  margin-top: 250px;
+  
+  
+}
+.hero-parent{
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;;
+  
+  
 }
 
+.hero-child{
+  margin-top: 30px;
+  border: 2px solid rgb(201, 197, 197);
+  padding: 8px;
+  border-radius: 12px;
+  text-align: left;
+  width: fit-content;
+  padding: 20px;
+}
+
+
+.hero-child h5{
+ color: #2563EB;
+ 
+ 
+}
+.hero-child p{
+  color: #575757;
+  margin-top: 10px;
+}
+.hero-child h5{
+  padding-top: 20px;
+}
+.hero-parent-text h1{
+  text-align: center;
+  margin-top: 40px;
+}
+.secure-spot h1{
+ text-align: center;
+ margin-top: 80px;
+}
+.secure-spot p{
+  text-align: center;
+  margin-top: 30px;
+}
