@@ -1,0 +1,41 @@
+*{
+  font-family: "Inter", sans-serif;
+  
+}
+ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+.logo{
+ 
+  width: 80px;
+ height: auto;
+}
+.list-section ul li{
+ list-style: none;
+  padding: 0;
+  margin: 0;
+ }
+ .list-section ul{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ 
+  
+ }
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 10px 12px;
+  
+}
+.common-btn{
+  background-color: #1D4ED8;
+  font-weight: bold;
+  font-size: 20px;
+  color: white ;
+  padding: 8px 12px;
+  border: 20px;
+  border-radius: 8px;
+}
+
