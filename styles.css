@@ -118,8 +118,85 @@ ul li a {
 .secure-spot h1{
  text-align: center;
  margin-top: 80px;
+ 
 }
 .secure-spot p{
   text-align: center;
   margin-top: 30px;
+  
 }
+.price-plan {
+  border: 2px solid rgb(234, 222, 222);
+  padding: 30px;
+  border-radius: 12px;
+  width:300px;
+ 
+}
+
+.price-plan hr {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.price-plan h2{
+ font-size: 50px;
+}
+.price-plan ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.price-plan ul li::marker {
+  color: #2563EB;
+}
+.price-plan ul li {
+  margin-bottom: 10px;
+}
+.price-plan-1 {
+color:#888888;
+}
+.btn-stand{
+ background-color: #FFFFFF;
+ border: 2px solid #2563EB;
+ padding: 8px 100px;
+ border-radius: 12px;
+ color: #2563EB;
+ cursor: pointer;
+ font-weight: bold;
+}
+.price-plan-2 h5{
+ color: #93C5FD;
+}
+.price-plan-2 p{
+  color: #FFFFFF;
+}
+.btn-pro{
+    background-color:#2563EB ;
+    padding: 8px 120px;;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ .pro-card{
+  background-color: #0D1B2A;
+  color: white;
+}
+.price-container{
+   display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.btn-Team{
+ background-color: #FFFFFF;
+ border: 2px solid #0D1B2A;
+ padding: 8px 100px;
+ border-radius: 12px;
+ color: #0D1B2A;
+ cursor: pointer;
+ font-weight: bold;
+}
+
